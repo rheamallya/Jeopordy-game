@@ -1,0 +1,60 @@
+{
+  "title": "General Trivia",
+  "categories": [
+    {
+      "id": "cat-science",
+      "name": "Science",
+      "questions": [
+        { "id": "sci-100", "value": 100, "mode": "match", "prompt": "This is the only planet in our solar system not named after a god.", "answer": "Earth", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "sci-200", "value": 200, "mode": "match", "prompt": "The powerhouse of the cell, this organelle produces ATP.", "answer": "mitochondria", "acceptedAnswers": ["the mitochondria"], "timeLimit": 20 },
+        { "id": "sci-300", "value": 300, "mode": "buzzer", "prompt": "Name the chemical symbol for gold.", "answer": "Au", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "sci-400", "value": 400, "mode": "vote", "prompt": "In your own words: why is the sky blue?", "answer": "", "acceptedAnswers": [], "timeLimit": 25 },
+        { "id": "sci-500", "value": 500, "mode": "match", "prompt": "This force causes objects to fall toward Earth.", "answer": "gravity", "acceptedAnswers": [], "timeLimit": 20 }
+      ]
+    },
+    {
+      "id": "cat-history",
+      "name": "History",
+      "questions": [
+        { "id": "his-100", "value": 100, "mode": "match", "prompt": "The year the Declaration of Independence was signed.", "answer": "1776", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "his-200", "value": 200, "mode": "buzzer", "prompt": "First President of the United States.", "answer": "George Washington", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "his-300", "value": 300, "mode": "match", "prompt": "The ancient wonder located in Giza, Egypt.", "answer": "the Great Pyramid", "acceptedAnswers": ["pyramid", "great pyramid of giza"], "timeLimit": 20 },
+        { "id": "his-400", "value": 400, "mode": "vote", "prompt": "Who do you think had the biggest impact on the 20th century, and why?", "answer": "", "acceptedAnswers": [], "timeLimit": 30 },
+        { "id": "his-500", "value": 500, "mode": "match", "prompt": "The wall that divided a German city fell in 1989.", "answer": "Berlin Wall", "acceptedAnswers": ["the berlin wall"], "timeLimit": 20 }
+      ]
+    },
+    {
+      "id": "cat-movies",
+      "name": "Movies",
+      "questions": [
+        { "id": "mov-100", "value": 100, "mode": "match", "prompt": "This 1997 film features a ship called the Titanic.", "answer": "Titanic", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "mov-200", "value": 200, "mode": "buzzer", "prompt": "This wizard franchise is based on books by J.K. Rowling.", "answer": "Harry Potter", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "mov-300", "value": 300, "mode": "match", "prompt": "Pixar film about emotions inside a girl named Riley.", "answer": "Inside Out", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "mov-400", "value": 400, "mode": "vote", "prompt": "What's the most quotable movie line of all time, and why?", "answer": "", "acceptedAnswers": [], "timeLimit": 25 },
+        { "id": "mov-500", "value": 500, "mode": "match", "prompt": "Director known for Jaws, E.T., and Jurassic Park.", "answer": "Steven Spielberg", "acceptedAnswers": ["spielberg"], "timeLimit": 20 }
+      ]
+    },
+    {
+      "id": "cat-geography",
+      "name": "Geography",
+      "questions": [
+        { "id": "geo-100", "value": 100, "mode": "match", "prompt": "The largest ocean on Earth.", "answer": "Pacific Ocean", "acceptedAnswers": ["pacific"], "timeLimit": 20 },
+        { "id": "geo-200", "value": 200, "mode": "match", "prompt": "This country is shaped like a boot.", "answer": "Italy", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "geo-300", "value": 300, "mode": "buzzer", "prompt": "The longest river in the world.", "answer": "the Nile", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "geo-400", "value": 400, "mode": "vote", "prompt": "Which country would you most want to visit, and why?", "answer": "", "acceptedAnswers": [], "timeLimit": 25 },
+        { "id": "geo-500", "value": 500, "mode": "match", "prompt": "This mountain range separates Europe and Asia.", "answer": "the Urals", "acceptedAnswers": ["ural mountains", "urals"], "timeLimit": 20 }
+      ]
+    },
+    {
+      "id": "cat-sports",
+      "name": "Sports",
+      "questions": [
+        { "id": "spo-100", "value": 100, "mode": "match", "prompt": "Number of players on a standard soccer team on the field.", "answer": "11", "acceptedAnswers": ["eleven"], "timeLimit": 20 },
+        { "id": "spo-200", "value": 200, "mode": "buzzer", "prompt": "This sport is played at Wimbledon.", "answer": "tennis", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "spo-300", "value": 300, "mode": "match", "prompt": "The country that has won the most FIFA World Cups.", "answer": "Brazil", "acceptedAnswers": [], "timeLimit": 20 },
+        { "id": "spo-400", "value": 400, "mode": "vote", "prompt": "What's the most underrated sport, and why?", "answer": "", "acceptedAnswers": [], "timeLimit": 25 },
+        { "id": "spo-500", "value": 500, "mode": "match", "prompt": "Sport in which you'd perform a slam dunk.", "answer": "basketball", "acceptedAnswers": [], "timeLimit": 20 }
+      ]
+    }
+  ]
+}
